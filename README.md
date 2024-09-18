@@ -17,4 +17,4 @@ If you happen to run into any error, issues, or want to request some new feature
 #### LICENSE
 This extension is licensed under the [MIT License](LICENSE)
 
-**Enjoy!**
+#### Enjoy !
