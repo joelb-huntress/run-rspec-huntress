@@ -2,7 +2,7 @@
   "name": "run-rspec",
   "displayName": "Run RSpec",
   "description": "A VS Code Extension to run RSpec or just some RSpec blocks just with a click",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "itssoumit",
   "author": {
     "name": "Soumit Das",
