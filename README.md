@@ -6,9 +6,9 @@ A VS Code Extension to run RSpec or just some RSpec blocks just with a click.
 2. The extension will only auto-run and show options on files ending with `_spec.rb`.
 
 #### Usage
-1. To run specific rspec blocks, just click on the `Run` button above the block
+To run specific rspec blocks, just click on the `Run` button above the block \
 ![block](./readme_assets/images/block.png)
-2. To run the entire rspec file, just click on the `Run` button on the Title Bar
+To run the entire rspec file, just click on the `Run` button on the Title Bar \
 ![file](./readme_assets/images/file.png)
 
 #### Error, Issue Reporting and New Feature Requests
