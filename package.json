@@ -3,6 +3,30 @@
   "displayName": "Run RSpec",
   "description": "A VS Code Extension to run RSpec or just some RSpec blocks just with a click",
   "version": "0.0.1",
+  "publisher": "itssoumit",
+  "author": {
+    "name": "Soumit Das",
+    "email": "me@soumit.in",
+    "url": "https://www.linkedin.com/in/itssoumit/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ITSSOUMIT/run-rspec"
+  },
+  "galleryBanner": {
+    "color": "##e9573f",
+    "theme": "dark"
+  },
+  "keywords": [
+    "rspec",
+    "run rspec",
+    "ruby on rails",
+    "ruby",
+    "rspec testing",
+    "unit testing"
+  ],
+  "icon": "icon.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -49,5 +73,9 @@
     "typescript": "^5.5.4",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "announcement": {
+    "onVersion": "0.0.1",
+    "message": "A big Thank You for installing Run RSpec"
   }
 }
