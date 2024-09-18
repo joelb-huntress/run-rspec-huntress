@@ -7,7 +7,7 @@ A VS Code Extension to run RSpec or just some RSpec blocks just with a click.
 
 #### Usage
 To run specific rspec blocks, just click on the `Run` button above the block \
-![block](./readme_assets/images/block.png)
+![block](./readme_assets/images/block.png) \
 To run the entire rspec file, just click on the `Run` button on the Title Bar \
 ![file](./readme_assets/images/file.png)
 
