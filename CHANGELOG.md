@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "run-rspec" extension will be documented in this file.
+## v0.0.5
+- VS Code version 1.51.0 and above are supported.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
+## v0.0.4
 - Initial release
