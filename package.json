@@ -1,13 +1,13 @@
 {
-  "name": "run-rspec",
-  "displayName": "Run RSpec",
+  "name": "run-rspec-hunt",
+  "displayName": "Run RSpec Hunt",
   "description": "A VS Code Extension to run RSpec or just some RSpec blocks just with a click",
   "version": "0.0.5",
-  "publisher": "itssoumit",
+  "publisher": "joelb-huntress",
   "author": {
-    "name": "Soumit Das",
-    "email": "me@soumit.in",
-    "url": "https://www.linkedin.com/in/itssoumit/"
+    "name": "Joel B",
+    "email": "joel.bandi@huntress.com",
+    "url": "https://github.com/joelb-huntress"
   },
   "repository": {
     "type": "git",
@@ -64,14 +64,14 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.51.0",
     "@types/mocha": "^10.0.7",
     "@types/node": "20.x",
+    "@types/vscode": "^1.51.0",
     "@typescript-eslint/eslint-plugin": "^8.3.0",
     "@typescript-eslint/parser": "^8.3.0",
-    "eslint": "^9.9.1",
-    "typescript": "^5.5.4",
     "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1"
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.9.1",
+    "typescript": "^5.6.3"
   }
 }

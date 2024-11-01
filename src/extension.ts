@@ -82,7 +82,7 @@ async function debugRubySpec(uri: vscode.Uri, line: number) {
     const fullPath = uri.fsPath;
     const specIndex = fullPath.indexOf('spec/');
     let relativePath: string;
-    
+
     if (specIndex !== -1) {
         relativePath = fullPath.substring(specIndex);
     } else {
@@ -94,10 +94,10 @@ async function debugRubySpec(uri: vscode.Uri, line: number) {
     }
     rspecTerminal.show();
 
-    const rspecCommand = line === 0 
-        ? `bundle exec rspec ${relativePath}`
-        : `bundle exec rspec ${relativePath}:${line + 1}`;
-    
+    const rspecCommand = line === 0
+        ? `ave bundle exec rspec ${relativePath}`
+        : `ave bundle exec rspec ${relativePath}:${line + 1}`;
+
     const workspaceFolder = vscode.workspace.getWorkspaceFolder(uri);
     if (workspaceFolder) {
         rspecTerminal.sendText(`cd "${workspaceFolder.uri.fsPath}"`);
